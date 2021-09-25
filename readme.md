@@ -2,7 +2,7 @@
 # Previsão de Série Temporal Com 
 
 #### Aluno: [André de Oliveira Salles](https://github.com/andresalles93)
-#### Orientadora: [Felipe Borges](https://github.com/FelipeBorgesC).
+#### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC).
 
 
 ---
