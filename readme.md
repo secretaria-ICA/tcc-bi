@@ -10,9 +10,9 @@
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 <!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://colab.research.google.com/drive/186wE-RsVri8WPsO1fB7oyuc8abTdARY9). <!-- caso não aplicável, remover esta linha -->
+- [Link para o Colab](https://colab.research.google.com/drive/186wE-RsVri8WPsO1fB7oyuc8abTdARY9). <!-- caso não aplicável, remover esta linha -->
 
-- [Link para a monografia](https://github.com/andresalles93/tcc-bi). <!-- caso não aplicável, remover esta linha -->
+- [Link para o Github](https://github.com/andresalles93/tcc-bi). <!-- caso não aplicável, remover esta linha -->
 
 ---
 
@@ -20,11 +20,13 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+O trabalho tem como objetivo criar um modelo de redes neurais capaz de prever o comportamento futuro de uma série temporal. 
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Todo o trabalho foi feito em Python no ambiente de desenvolvimento do Google Colab.
 
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Todos os dados utilizados no trabalho são da fonte:
+[Link para o Colab](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-biocombustiveis)
+[Link para o Colab](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis)
 
 
 ### 1. Introdução
