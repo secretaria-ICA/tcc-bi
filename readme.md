@@ -25,8 +25,8 @@ O trabalho tem como objetivo criar um modelo de redes neurais capaz de prever o 
 Todo o trabalho foi feito em Python no ambiente de desenvolvimento do Google Colab.
 
 Todos os dados utilizados no trabalho são da fonte:
-[Link para o Colab](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-biocombustiveis)
-[Link para o Colab](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis)
+[Link para o test1](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-biocombustiveis)
+[Link para o test2](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis)
 
 
 ### 1. Introdução
