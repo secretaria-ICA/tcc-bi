@@ -20,21 +20,43 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 
-O trabalho tem como objetivo criar um modelo de redes neurais capaz de prever o comportamento futuro de uma série temporal. 
+O trabalho tem como objetivo criar um modelo de redes neurais capaz de prever o comportamento da série temporal da produção de biocombustíveis em cada região do Brasil.
 
 Todo o trabalho foi feito em Python no ambiente de desenvolvimento do Google Colab.
 
 Todos os dados utilizados no trabalho são da fonte:
-[Link para o test1](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-biocombustiveis)
-[Link para o test2](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis)
+- [Link para o test1](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-biocombustiveis)
+<!-- [Link para o test2](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis)-->
 
 
 ### 1. Introdução
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+Os dados fornecidos no site do governo federal são de 2005 até 2020. 
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Eles contém informações do produto, ano, região, estado produtor e unidade para cada mês.
 
+Para a previsão da série temporal, foi utilizado um modelo de redes neurais sequenciais bidirecional.
+
+As seguintes bibliotecas foram utilizadas:
+- numpy
+- matplotlib.pyplot
+- pandas
+- os
+- datetime
+- keras do tensorflow
+- Sequential do keras.model
+- LSTM do keras.layers
+- Dense do keras.layers
+- Bidirectional do keras.layers
+- Dropout do keras.layers
+- MinMaxScaler do sklearn.preprocessing
+- train_test_split do sklearn.model_selection
+- TimeseriesGenerator do keras.processing.sequence
+- EarlyStopping do keras.callback
+- ReduceLROnPlateau do keras.callback
+- ModelCheckpoint do keras.callback
+- math
+- mean_squared_error do sklearn.metrics
 ### 2. Modelagem
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
