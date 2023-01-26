@@ -32,6 +32,44 @@ O resultado foi capaz de captar a tendência das séries de cada região, porém
 
 ### 1. Introdução
 
+Explicação sobre rede neurais (lstm e bidirecional).
+Explicação sobre séries temporais
+Comentário geral sobre as bibliotecas
+COmentário sobre o Colab
+Comentário sobre produção de biodiesel
+
+### 2. Modelagem
+
+Os dados da produção de biodiesel foram extraídos utilizando o comando 'read_me' da biblioteca pandas.
+
+Houve uma manipulação dos dados para listar e, posteriormente, agregar os dados categorizados por ano, mês e região do Brasil. 
+
+Após uma manipulação das datas, com o objetivo de visualizar o comportamento da produções ao longo do tempo para cada região, foi utilizada a biblioteca matplotlib para exibí-los.
+
+Para separar os dados em treino e teste, foi utilizada a função 'train_test_split' da biblioteca Sklearn. Como a ordenação dos dados é importante para séries temporais, não houve o parâmetro shuffle, que troca a ordem dos dados, foi definido como falso.
+
+Para normalizar os dados, foi utilizada a função train_test_split da biblioteca MinMaxScaler do Scikit Learn.
+
+Para cada região, foi utilizada a função TimeseriesGenerator para associar 4 valores sequenciais de produção de biodiesel, associados ao próximo valor da série temporal.
+
+### 3. Resultados
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
 
 Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+
+### 4. Conclusões
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+
+Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+
+---
+
+Matrícula: 191.671.006
+
+Pontifícia Universidade Católica do Rio de Janeiro
+
+Curso de Pós Graduação *Business Intelligence Master*
+
+
