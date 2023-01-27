@@ -73,7 +73,10 @@ O treinamento foi configurado para 100 épocas, um batch size igual a 8, um perc
 
 ### 3. Resultados
 
-Os resultados variaram muito para cada região. A análise gráfica do erro ao longo do tempo indicou que algumas regiões chegaram rapidamente num ponto ótimo, enquanto outras tiveram uma dificuldade maior para convergir. Já a análise do RMSE de todas as regiões ficou entre 0.05 e 0.2, valores considerados baixos. Contudo, apesar do erro pequeno e da capacidade de convergir rapidamente para um ótimo local, foi possível observar, de maneira gráfica, que os resultados poderiam ser melhores. De maneira resumida, o modelo foi capaz de prever bem a tendência das séries temporais. Entretanto, as oscilações previstas pelo modelo são muito maiores do que a dos dados fornecidos. 
+Os resultados variaram muito para cada região. A análise gráfica do erro ao longo do tempo indicou que algumas regiões chegaram rapidamente num ponto ótimo, enquanto outras tiveram uma dificuldade maior para convergir, como pode-se observar na figura abaixo:
+![image](https://user-images.githubusercontent.com/60662709/215183373-e0d1b277-ab7b-4153-a1d9-a33234b94656.png)
+
+Já a análise do RMSE de todas as regiões ficou entre 0.05 e 0.2, valores considerados baixos. Contudo, apesar do erro pequeno e da capacidade de convergir rapidamente para um ótimo local, foi possível observar, de maneira gráfica, que os resultados poderiam ser melhores. De maneira resumida, o modelo foi capaz de prever bem a tendência das séries temporais. Entretanto, as oscilações previstas pelo modelo são muito maiores do que a dos dados fornecidos. 
 
 ### 4. Conclusões
 
