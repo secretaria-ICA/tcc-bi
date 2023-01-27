@@ -1,5 +1,3 @@
-# tcc-bi
-
 # Previsão da Produção de Biodiesel com Rede Neural do Tipo LSTM Bidirecional
 
 #### Aluno: [André de Oliveira Salles](https://github.com/andresalles93)
