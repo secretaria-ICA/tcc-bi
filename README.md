@@ -74,9 +74,27 @@ O treinamento foi configurado para 100 épocas, um batch size igual a 8, um perc
 ### 3. Resultados
 
 Os resultados variaram muito para cada região. A análise gráfica do erro ao longo do tempo indicou que algumas regiões chegaram rapidamente num ponto ótimo, enquanto outras tiveram uma dificuldade maior para convergir, como pode-se observar na figura abaixo:
-![image](https://user-images.githubusercontent.com/60662709/215183373-e0d1b277-ab7b-4153-a1d9-a33234b94656.png)
 
-Já a análise do RMSE de todas as regiões ficou entre 0.05 e 0.2, valores considerados baixos. Contudo, apesar do erro pequeno e da capacidade de convergir rapidamente para um ótimo local, foi possível observar, de maneira gráfica, que os resultados poderiam ser melhores. De maneira resumida, o modelo foi capaz de prever bem a tendência das séries temporais. Entretanto, as oscilações previstas pelo modelo são muito maiores do que a dos dados fornecidos. 
+![image](https://user-images.githubusercontent.com/60662709/215187918-925fe3ac-5cae-4779-90b0-80e170b0bc7f.png)
+
+Já a análise do RMSE de todas as regiões ficou entre 0.05 e 0.2, valores considerados baixos. 
+
+![image](https://user-images.githubusercontent.com/60662709/215188438-e350eab2-b793-48a1-8502-3320a4698161.png)
+
+Contudo, apesar do erro pequeno e da capacidade de convergir rapidamente para um ótimo local, foi possível observar, de maneira gráfica, que os resultados poderiam ser melhores. 
+
+![image](https://user-images.githubusercontent.com/60662709/215188548-990023cb-1248-451f-9737-d3dd9804c047.png)
+
+![image](https://user-images.githubusercontent.com/60662709/215188570-1bb49db7-51b6-45b2-bee2-231995402572.png)
+
+![image](https://user-images.githubusercontent.com/60662709/215188608-9de74f7c-e43b-4dd2-9897-de6b75cb52c2.png)
+
+![image](https://user-images.githubusercontent.com/60662709/215188630-34a50ca9-3d3b-464d-9263-33be328562fd.png)
+
+![image](https://user-images.githubusercontent.com/60662709/215188649-cfa6fa9d-2061-47ea-8100-fd1791bcfa88.png)
+
+
+Como pode ser observado nos gráficos acima, o modelo foi capaz de prever bem a tendência das séries temporais. Entretanto, as oscilações previstas pelo modelo são muito maiores do que a dos dados fornecidos. 
 
 ### 4. Conclusões
 
