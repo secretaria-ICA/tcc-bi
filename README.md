@@ -1,4 +1,4 @@
-# Previsão da Produção de Biodiesel com Rede Neural do Tipo LSTM Bidirecional
+# Previsao_da_Producao_de_Biodiesel_com_Rede_Neural_do_Tipo_LSTM_Bidirecional
 
 #### Aluno: [André de Oliveira Salles](https://github.com/andresalles93)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC).
